@@ -54,8 +54,8 @@ priv-app/AsusGallery/lib/arm/libopencv_java3.so
 priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so
 
 # Bluetooth (aptX)
--app/aptxals/aptxals.apk
--app/aptxalsOverlay/aptxalsOverlay.apk
+-app/aptxals/aptxals.apk|8beac78b061df2770ec9fa2af9cd0755289463d1
+-app/aptxalsOverlay/aptxalsOverlay.apk|d2c8d15851cd751610b43b851a5bffc104ffb5a9
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
