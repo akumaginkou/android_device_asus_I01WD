@@ -8,7 +8,7 @@ $(call inherit-product, device/asus/I01WD/device.mk)
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit PixelGApps
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := asus
