@@ -152,5 +152,9 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
+# Vendor init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_I01WD
+TARGET_RECOVERY_DEVICE_MODULES := libinit_I01WD
+
 # Inherit from the proprietary version
 -include vendor/asus/I01WD/BoardConfigVendor.mk
