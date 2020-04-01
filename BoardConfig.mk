@@ -18,6 +18,8 @@ BOARD_VENDOR := asus
 
 DEVICE_PATH := device/asus/I01WD
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Build
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -152,6 +154,10 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/qcom/sepolicy/qva/private
+    
+# Charger Mode
+BOARD_CHARGER_ENABLE_SUSPEND := true
+BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
