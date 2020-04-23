@@ -97,6 +97,11 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 BOARD_HAVE_QCOM_FM := true
 
+# GAPPS
+TARGET_GAPPS_OVERRIDE += \
+    GoogleCamera \
+    GoogleDialer
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := WW_I01WD
 
