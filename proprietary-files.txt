@@ -5,7 +5,7 @@ product/lib/com.qualcomm.qti.ant@1.0.so
 product/lib64/com.qualcomm.qti.ant@1.0.so
 
 # Asus Camera
-etc/permissions/privapp-permissions-ASUS_I01WD.xml
+etc/permissions/privapp-permissions-ASUS_I01WD.xml|4f8ea2c8ddb68cd68e4de966c8d6e06bac0347a8
 -priv-app/AsusCamera/AsusCamera.apk
 priv-app/AsusCamera/lib/arm64/libasus_camera_panorama.so
 priv-app/AsusCamera/lib/arm64/libasus_camera_panorama.so
@@ -95,6 +95,9 @@ priv-app/MotorService/lib/arm64/libAsusLaserSensorHAL.so
 priv-app/MotorService/lib/arm64/libAsusMotorDriverHAL.so
 priv-app/MotorService/lib/arm64/libjni_laser.so
 priv-app/MotorService/lib/arm64/libjni_motor.so
+
+# Charger
+bin/charger|5c2f005d27ff775616d8e6e05121066bac5bf853
 
 # DPM
 framework/tcmclient.jar
@@ -207,3 +210,56 @@ product/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
 product/lib/vendor.qti.hardware.scve.panorama@1.0.so
 product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 product/lib/libimscamera_jni.so
+
+# WFD
+bin/wfdservice
+etc/init/wfdservice.rc
+etc/wfdconfigsink.xml
+-framework/WfdCommon.jar
+lib/com.qualcomm.qti.wifidisplayhal@1.0.so
+lib64/libFileMux.so
+lib64/libdisplayconfig.so
+lib64/libmmparser_lite.so
+lib64/libmmrtpdecoder.so
+lib64/libmmrtpencoder.so
+lib64/libmmosal.so
+lib64/libqdMetaData.system.so
+lib64/libwfdclient.so
+lib64/libwfdcommonutils.so
+lib64/libwfdconfigutils.so
+lib64/libwfdmminterface.so
+lib64/libwfdmmsink.so
+lib64/libwfdnative.so
+lib64/libwfdrtsp.so
+lib64/libwfdsinksm.so
+lib64/libwfdsm.so
+lib64/libwfds.so
+lib64/libwfduibcinterface.so
+lib64/libwfduibcsinkinterface.so
+lib64/libwfduibcsink.so
+lib64/libwfduibcsrcinterface.so
+lib64/libwfduibcsrc.so
+lib/libFileMux.so
+lib/libdisplayconfig.so
+lib/libmmparser_lite.so
+lib/libmmosal.so
+lib/libmmrtpdecoder.so
+lib/libmmrtpencoder.so
+lib/libOmxMux.so
+lib/libqdMetaData.system.so
+lib/libwfdaac.so
+lib/libwfdavenhancements.so
+lib/libwfdcommonutils.so
+lib/libwfdconfigutils.so
+lib/libwfdclient.so
+lib/libwfdmminterface.so
+lib/libwfdmmsink.so
+lib/libwfdrtsp.so
+lib/libwfdservice.so
+lib/libwfdsm.so
+lib/libwfduibcinterface.so
+lib/libwfduibcsink.so
+lib/libwfduibcsinkinterface.so
+lib/libwfduibcsrc.so
+lib/libwfduibcsrcinterface.so
+-priv-app/WfdService/WfdService.apk

@@ -236,7 +236,11 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libvulkan
+    libdisplayconfig \
+    libqdMetaData \
+    libqdMetaData.system \
+    libvulkan \
+    vendor.display.config@1.0
 
 # Doze
 PRODUCT_PACKAGES += \
@@ -315,3 +319,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libnl
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
