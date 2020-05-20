@@ -262,6 +262,10 @@ lib/libwfduibcsink.so
 lib/libwfduibcsinkinterface.so
 lib/libwfduibcsrc.so
 lib/libwfduibcsrcinterface.so
+lib/libwfdmmsrc_system.so
+lib/libwfdsinksm.so
+product/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
+product/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 -priv-app/WfdService/WfdService.apk
 
 # Asus apps
@@ -273,10 +277,10 @@ lib/libwfduibcsrcinterface.so
 -priv-app/AsusSoundRecorder/AsusSoundRecorder.apk
 -priv-app/FileManager/FileManager.apk
 #-priv-app/GameBroadcaster/GameBroadcaster.apk
--priv-app/MobileManager/MobileManager.apk
+-priv-app/MobileManager/MobileManager.apk|437276c96c35cf1392f4b173629945e8384bbad0
 priv-app/MobileManager/lib/arm64/libavast-utils.so
 priv-app/MobileManager/lib/arm64/libavast-vps-interface.so
--app/MobileManagerService/MobileManagerService.apk|437276c96c35cf1392f4b173629945e8384bbad0
+-app/MobileManagerService/MobileManagerService.apk
 #-app/TwinApps/TwinApps.apk
 -priv-app/WeatherTime/WeatherTime.apk
 -priv-app/PowerSaving2/PowerSaving2.apk
