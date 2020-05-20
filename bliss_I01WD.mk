@@ -21,6 +21,9 @@ PRODUCT_SYSTEM_NAME := WW_I01WD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bliss.maintainer=Jackeagle
+
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=ZS630KL \
