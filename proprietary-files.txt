@@ -5,7 +5,7 @@ product/lib/com.qualcomm.qti.ant@1.0.so
 product/lib64/com.qualcomm.qti.ant@1.0.so
 
 # Asus Camera
-etc/permissions/privapp-permissions-ASUS_I01WD.xml|4f8ea2c8ddb68cd68e4de966c8d6e06bac0347a8
+etc/permissions/privapp-permissions-ASUS_I01WD.xml|288b9b8d8912f39fc325530e3366a1a0b9266f22
 -priv-app/AsusCamera/AsusCamera.apk
 priv-app/AsusCamera/lib/arm64/libasus_camera_panorama.so
 priv-app/AsusCamera/lib/arm64/libasus_camera_panorama.so
@@ -263,3 +263,21 @@ lib/libwfduibcsinkinterface.so
 lib/libwfduibcsrc.so
 lib/libwfduibcsrcinterface.so
 -priv-app/WfdService/WfdService.apk
+
+# Asus apps
+-app/AsusBoost/AsusBoost.apk
+-priv-app/AsusCalculator/AsusCalculator.apk
+#-priv-app/AsusLauncherDev/AsusLauncherDev.apk
+#priv-app/AsusLauncherDev/lib/arm/libjni_filter_show.so
+#priv-app/AsusLauncherDev/lib/arm/libminizip_launcher.so
+-priv-app/AsusSoundRecorder/AsusSoundRecorder.apk
+-priv-app/FileManager/FileManager.apk
+#-priv-app/GameBroadcaster/GameBroadcaster.apk
+-priv-app/MobileManager/MobileManager.apk
+priv-app/MobileManager/lib/arm64/libavast-utils.so
+priv-app/MobileManager/lib/arm64/libavast-vps-interface.so
+-app/MobileManagerService/MobileManagerService.apk|437276c96c35cf1392f4b173629945e8384bbad0
+#-app/TwinApps/TwinApps.apk
+-priv-app/WeatherTime/WeatherTime.apk
+-priv-app/PowerSaving2/PowerSaving2.apk
+#-priv-app/ScreenRecorder/ScreenRecorder.apk
