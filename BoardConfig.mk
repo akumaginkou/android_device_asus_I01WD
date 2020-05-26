@@ -103,7 +103,10 @@ BOARD_HAVE_QCOM_FM := true
 TARGET_GAPPS_OVERRIDE += \
     GoogleCamera \
     GoogleDialer \
-    Snap
+    Snap \
+    CalculatorGooglePrebuilt \
+    GalleryGoPrebuilt \
+    Photos
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := WW_I01WD
