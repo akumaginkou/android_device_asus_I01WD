@@ -85,7 +85,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.default_network=9,9
+    ro.telephony.default_network=9,9 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true \
+    persist.dbg.wfc_avail_ovr=1
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
