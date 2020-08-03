@@ -103,7 +103,9 @@ TARGET_GAPPS_OVERRIDE += \
     Snap \
     CalculatorGooglePrebuilt \
     GalleryGoPrebuilt \
-    Photos
+    Photos \
+    PixelLiveWallpaperPrebuilt \
+    NexusWallpapersStubPrebuilt2019
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := WW_I01WD
