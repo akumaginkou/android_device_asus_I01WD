@@ -23,7 +23,6 @@ LOCAL_SHARED_LIBRARIES := \
     libbase \
     libdl \
     libhidlbase \
-    libhidltransport \
     liblog \
     libutils
 
