@@ -19,9 +19,7 @@
 # product configuration (apps).
 #
 
-<<<<<<< HEAD:bliss_I01WD.mk
-# SELINUX_IGNORE_NEVERALLOWS := true
-=======
+
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # GApps
@@ -30,8 +28,6 @@ SELINUX_IGNORE_NEVERALLOWS := true
 #IS_PHONE := true
 #TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
 
-
->>>>>>> 18494b3 (I01WD: Add qHDR control):aosp_I01WD.mk
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -40,15 +36,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common AOSP-OMS stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inherit some common ARROW-OS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/I01WD/device.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_DEVICE := I01WD
-PRODUCT_NAME := bliss_I01WD
+PRODUCT_NAME := arrow_I01WD
 PRODUCT_BRAND := Asus
 PRODUCT_MODEL := ASUS_I01WD
 PRODUCT_MANUFACTURER := Asus
