@@ -4,8 +4,5 @@ allow system_app sysfs_gesture:file { rw_file_perms setattr };
 allow system_app proc_touchscreen:file { rw_file_perms setattr };
 allow system_app proc_pagetypeinfo:file { read };
 allow system_app sysfs_zram:dir { search };
-<<<<<<< HEAD
 set_prop(system_app, exported_system_prop)
-=======
 set_prop(system_app, vendor_camera_prop)
->>>>>>> 18494b3 (I01WD: Add qHDR control)
